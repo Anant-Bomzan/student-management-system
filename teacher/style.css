@@ -1,0 +1,189 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: blue;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-container button a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button-container button:hover {
+  background-color: blue;
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+.button-container button a:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+.content {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.content h2 {
+  margin-bottom: 15px;
+  color: blue;
+}
+
+.content p {
+  margin-bottom: 10px;
+  color: blue;
+  font-weight: bold;
+}
+
+.content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+.content a {
+  text-decoration: none;
+  color: blue;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th{
+  color: blue;
+  font-weight: bold;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="submit"] {
+  padding: 5px;
+}
+
+.dashboard {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+.dashboard:hover {
+  cursor: pointer;
+  color: blue;
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+/*----------------------- CSS FOR ASSIGNMENT.PHP -------------------------*/
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: blue;
+}
+
+.assignments {
+  margin-bottom: 40px;
+}
+
+.assignment-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.assignment-card h3 {
+  margin-top: 0;
+  color: blue;
+}
+
+.assignment-card p {
+  margin: 10px 0;
+  color: blue;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: lightblue;
+  color: blue;
+  border: 2px;
+  border-color: black;
+  transition: .5s;
+}

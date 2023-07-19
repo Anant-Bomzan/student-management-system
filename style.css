@@ -1,0 +1,103 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #bdff99;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    color: green;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin: 8px 8px;
+    color: green;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-group input[type="submit"] {
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }
+
+  .form-group input[type="submit"]:hover {
+    background-color: rgb(195, 255, 183);
+    color: green;
+    transition: 0.5s;
+  }
+
+  .admin-login {
+    position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 14px;
+      text-decoration: none;
+      color: green;
+  }
+
+  .admin-login:hover {
+    cursor: pointer;
+    color: green;
+    transform: scale(1.1);
+    transition: .5s;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .icon {
+    width: 120px;
+    height: 120px;
+    margin: 0 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+
+  .icon:hover {
+    transform: scale(1.1);
+  }
+
+  .icon-label {
+    margin-top: 50px;
+    color: green;
+    font-weight: bold;
+  }
+
+  #student-login-form,
+  #teacher-login-form {
+    display: none;
+  }
+
+  #student-login-form.show,
+  #teacher-login-form.show {
+    display: block;
+  }
